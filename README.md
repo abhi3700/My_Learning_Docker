@@ -54,7 +54,7 @@ My Notes on DOCKER
       
   [**SOURCE**](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
   
-* #### DOCKER East Access for WSL: Access docker (installed in windows 10) from bash-cmd:
+* #### DOCKER Easy Access for WSL: Access docker (installed in windows 10) from bash-cmd:
   Add this 2 steps (i.e. adding symbolics):
   * docker using <br/>
   `$ sudo ln -s "/mnt/c/program files/docker/docker/resources/bin/docker.exe" /usr/local/bin/docker`
