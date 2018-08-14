@@ -13,6 +13,7 @@ My Notes on DOCKER
   * To start, click on the docker icon (start-menu/desktop). 
   * Login to the docker engine and create images, containers
   * use the commands - `docker run hello-world`(run hello-world from the docker hub) , `docker ps`(list of containers) , `docker images`(list of images)
+  * All containers, images are stored in this location - "C:\Users\abhijit\.docker"
 
 * #### Docker for Linux (Ubuntu) - 
   Follow the steps:
@@ -53,6 +54,11 @@ My Notes on DOCKER
       
   [**SOURCE**](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
   
-* 
+* #### DOCKER East Access for WSL: Access docker (installed in windows 10) from bash-cmd:
+  Add this 2 steps (i.e. adding symbolics):
+  * docker using <br/>
+  `$ sudo ln -s "/mnt/c/program files/docker/docker/resources/bin/docker.exe" /usr/local/bin/docker`
+  * docker-compose using <br/>
+  `$ sudo ln -s "/mnt/c/program files/docker/docker/resources/bin/docker-compose.exe" /usr/local/bin/docker-compose`
   
-  
+ Now, all images, containers are installed according to win installation steps i.e. "C:\Users\abhijit\.docker"
